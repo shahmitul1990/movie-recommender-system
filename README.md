@@ -85,6 +85,61 @@ U2 ratings: (4,5)  (for M1, M2) <br>
 
 Both liked these movies! Similar taste! <br>
 
+#### Calculate Cosine Similarity:
+
+<pre>
+Similarity = (U1·U2) / (|U1| × |U2|)
+           = (5×4 + 4×5) / (√(5²+4²) × √(4²+5²))
+           = (20 + 20) / (√41 × √41)
+           = 40 / 41
+           = 0.976 (Very similar! 97.6%)
+</pre>
+
+#### U1 vs U3:
+
+U1 ratings: (5,4)  (for M1, M2) <br>
+U3 ratings: (2,1)  (for M1, M2) <br>
+
+Opposite taste! U1 loves what U3 hates! <br>
+
+#### Calculate Cosine Similarity:
+
+<pre>
+Similarity = (5×2 + 4×1) / (√41 × √5)
+           = 14 / 14.32
+           = 0.977
+</pre>
+
+But wait! They have OPPOSITE preferences! <br>
+Let's use Pearson correlation = -0.8 (negative) <br>
+
+For this example, we'll ignore negative similarities. <br>
+So Sim(U1, U3) = 0 (we don't use it) <br>
+
+#### Step 2: Predict U1's rating using similar users
+
+Only U2 is similar to U1 (similarity = 0.976) <br>
+U2 rated M3 = 3 stars <br>
+
+Predicted_Rating = Σ(Similarity × Rating) / Σ(Similarity)
+
+<pre>
+CF_score = (0.976 × 3) / 0.976
+         = 2.928 / 0.976
+         = 3.0
+</pre>
+
+Normalize to 0-1 scale: <br>
+CF_score = 3.0 / 5 = 0.60
+
+#### Collaborative Filtering Score = 0.60 ✅
+
+
+
+
+
+
+
 
 
 
