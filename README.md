@@ -8,7 +8,7 @@ The goal is to predict score for User U1 for Movie M3.
 #### User Ratings
 
 |    | M1 | M2 | M3 |
-|:--:|:--:|:--:|:--:|    <- We want to predict this
+|:--:|:--:|:--:|:--:|    
 | U1:| 5  | 4  | ?  |
 | U2 | 4  | 5  | 3  |
 | U3 | 2  | 1  | 5  |
