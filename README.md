@@ -60,10 +60,15 @@ M3: 300 bookings <br>
 #### Step 3: Calculate Content Based Score
 
 <pre>
-CB_Score = (0.5 * 5 + 0.0 * 4) / (5 + 4) <br><br><br>
+CB_Score = (0.5 * 5 + 0.0 * 4) / (5 + 4)
          = (2.5 + 0) / 9
-
+         = 2.5 / 9
+         = 0.278
 </pre>      
+<br>
+Normalize to 0-1: Already in scale
+
+#### Content-Based Score = 0.28 ✅ 
 
 
 
