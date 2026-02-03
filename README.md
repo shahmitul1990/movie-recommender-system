@@ -78,7 +78,14 @@ Normalize to 0-1: Already in scale
 
 We compare U1 with other users based on movies they both rated (M1 and M2).
 
-#### U1 vs U2:####
+#### U1 vs U2:
+
+U1 ratings: (5,4)  (for M1, M2) <br>
+U2 ratings: (4,5)  (for M1, M2) <br>
+
+Both liked these movies! Similar taste! <br>
+
+
 
 
 
