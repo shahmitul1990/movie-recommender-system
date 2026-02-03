@@ -44,6 +44,8 @@ M3: 300 bookings <br>
 * Genre match? Action ≠ Drama → NO (0 points) <br>
 * Actor match? Actor_A = Actor_A → YES (1 point) <br>
 
+* Similarity = 1/2 = 0.5
+
 
 
 
