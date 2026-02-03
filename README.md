@@ -47,6 +47,21 @@ M3: 300 bookings <br>
 
 #### Similarity = 1/2 = 0.5
 
+#### M3 vs M2:
+
+* M2: Action, Actor_B <br>
+* M3: Drama, Actor_A <br>
+
+* Genre match? Action ≠ Drama → NO (0 points) <br>
+* Actor match? Actor_B = Actor_A → NO (0 points) <br>
+
+#### Similarity = 0/2 = 0.0
+
+#### Step 3: Calculate Content Based Score
+
+CB_Score = (0.5 * 5 + 0.0 * 4) / (5 + 4) 
+         = (2.5 + 0) / 9
+
 
 
 
