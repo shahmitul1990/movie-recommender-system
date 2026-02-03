@@ -31,18 +31,18 @@ M3: 300 bookings <br>
 
 **Simple Idea:** "You liked Action movies before, will you like this Drama movie?"
 
-## Step 1: What did U1 watch?
+#### Step 1: What did U1 watch?
 
 * M1 → rated 5 ⭐⭐⭐⭐⭐
 * M2 → rated 4 ⭐⭐⭐⭐
 
-## Step 2: How similar is M3 to these movies?
+#### Step 2: How similar is M3 to these movies?
 
-* M1: Action, Actor_A
-* M3: Drama, Actor_A
+* M1: Action, Actor_A <br>
+* M3: Drama, Actor_A <br>
 
-* Genre match? Action ≠ Drama → NO (0 points)
-* Actor match? Actor_A = Actor_A → YES (1 point)
+* Genre match? Action ≠ Drama → NO (0 points) <br>
+* Actor match? Actor_A = Actor_A → YES (1 point) <br>
 
 
 
