@@ -72,6 +72,15 @@ Normalize to 0-1: Already in scale
 
 ### Method 2: Collaborative Filtering
 
+**Simple Idea:** "Find people similar to you, see what they rated M3"
+
+#### Step 1: Find users similar to U1
+
+We compare U1 with other users based on movies they both rated (M1 and M2).
+
+#### U1 vs U2:####
+
+
 
 
 
