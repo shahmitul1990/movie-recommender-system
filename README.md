@@ -136,15 +136,17 @@ CF_score = 3.0 / 5 = 0.60
 
 ### Method 3: Popularity-Based
 
-**Concept:** Recommend based on what's trending overall.
+**Simple Idea:** "What's trending? People usually like popular stuff!"
 
-#### Calculate normalized popularity
+#### Calculate Popularity Score
 
-Min bookings = 300 (M3) <br>
-Max bookings = 800 (M2) <br>
+M1: 500 bookings
+M2: 800 bookings (highest) <br>
+M3: 300 bookings (lowest) <br>
 
+Normalize M3's popularity:
 <pre>
-Pop_score = (M3_bookings - Min) / (Max - Min)
+Pop_score = (M3_bookings - Min_bookings) / (Max_bookings - Min_bookings)
           = (300 - 300) / (800 - 300)
           = 0 / 500
           = 0.0
