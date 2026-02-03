@@ -23,9 +23,9 @@ The goal is to predict score for User U1 for Movie M3.
 
 #### Popularity (Bookings)
 
-M1: 500 bookings
-M2: 800 bookings
-M3: 300 bookings
+M1: 500 bookings <br>
+M2: 800 bookings <br>
+M3: 300 bookings <br>
 
 ### Method 1: Content-Based Filtering
 
