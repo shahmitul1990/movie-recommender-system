@@ -36,7 +36,8 @@ M3: 300 bookings <br>
 * M1 → rated 5 ⭐⭐⭐⭐⭐
 * M2 → rated 4 ⭐⭐⭐⭐
 
-#### Step 2: How similar is M3 to these movies?
+#### Step 2: How similar is M3 to these movies? <br>
+#### M3 vs M1:
 
 * M1: Action, Actor_A <br>
 * M3: Drama, Actor_A <br>
@@ -44,7 +45,9 @@ M3: 300 bookings <br>
 * Genre match? Action ≠ Drama → NO (0 points) <br>
 * Actor match? Actor_A = Actor_A → YES (1 point) <br>
 
-Similarity = 1/2 = 0.5
+#### Similarity = 1/2 = 0.5
+
+
 
 
 
