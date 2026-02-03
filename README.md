@@ -70,6 +70,10 @@ Normalize to 0-1: Already in scale
 
 #### Content-Based Score = 0.28 ✅ 
 
+### Method 2: Collaborative Filtering
+
+
+
 
 
 
