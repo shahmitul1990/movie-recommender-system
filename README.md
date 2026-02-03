@@ -21,6 +21,15 @@ The goal is to predict score for User U1 for Movie M3.
 | M2 | Action| Actor_B |
 | M3 | Drama| Actor_A |
 
+#### Popularity (Bookings)
+
+M1: 500 bookings
+M2: 800 bookings
+M3: 300 bookings
+
+### Method 1: Content-Based Filtering
+
+**Simple Idea:** "You liked Action movies before, will you like this Drama movie?"
 
 
 
