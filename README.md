@@ -179,14 +179,16 @@ Hybrid_score = 0.30 × 0.28 + 0.50 × 0.60 + 0.20 × 0.0
 #### Convert back to 5-star scale (optional):
 Final_Rating = 0.384 × 5 = 1.92 stars
 
+### Complete Summary
 
-U1's predicted rating for M3: <br>
+| Method | What it Says | Score | Weight | Contribution |
+|:--:|:--:|:--:|:--:|:--:|
+| Content-Based | "M3 is Drama, you like Action" ❌ | 0.28 | 30% | 0.084 |
+| Collaborative | "Similar user gave it 3/5" ⚠️ | 0.60 | 50% | 0.300 |
+| Popularity | "M3 is least popular" ❌ | 0.00 | 20% | 0.000 |
+| FINAL HYBRID | "Probably won't like much" | 0.384 | 100% | 0.384 |
 
-Content:       ██░░░░░░░░  28%  "Not your genre" <br>
-Collab:        ██████░░░░  60%  "Similar user was meh" <br>
-Popular:       ░░░░░░░░░░   0%  "Nobody's watching" <br>
-               ───────────── <br>
-FINAL:         ████░░░░░░  38%  "Skip this one!" <br>
+
 
 
 
