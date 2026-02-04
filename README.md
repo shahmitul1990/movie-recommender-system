@@ -5,6 +5,7 @@
 * [Method 2: Collaborative Filtering](#method-2-collaborative-filtering)
 * [Method 3: Popularity-Based](#method-3-popularity-based)
 * [Final Step: Combine All Three (Hybrid Score)](#final-step-combine-all-three-hybrid-score)
+* [Complete Summary](#complete-summary)
 
 The goal is to predict score for User U1 for Movie M3.
 
