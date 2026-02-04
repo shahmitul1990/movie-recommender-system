@@ -1,13 +1,13 @@
 # movie-recommender-system
 
+The goal is to predict score for User U1 for Movie M3.
+
 * [The Data](#the-data)
 * [Method 1: Content-Based Filtering](#method-1-content-based-filtering)
 * [Method 2: Collaborative Filtering](#method-2-collaborative-filtering)
 * [Method 3: Popularity-Based](#method-3-popularity-based)
 * [Final Step: Combine All Three (Hybrid Score)](#final-step-combine-all-three-hybrid-score)
 * [Complete Summary](#complete-summary)
-
-The goal is to predict score for User U1 for Movie M3.
 
 ## Complete Hybrid Recommendation System Example
 
