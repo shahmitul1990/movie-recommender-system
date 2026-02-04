@@ -1,7 +1,7 @@
 # movie-recommender-system
 
 * [The Data](#the-data)
-* [Method 1: Content-Based Filtering](#method-1:content-based-filtering)
+* [Method 1: Content-Based Filtering](#method-1-content-based-filtering)
 
 The goal is to predict score for User U1 for Movie M3.
 
