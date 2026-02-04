@@ -1,4 +1,7 @@
 # movie-recommender-system
+
+* [The Data](#the-data)
+
 The goal is to predict score for User U1 for Movie M3.
 
 ## Complete Hybrid Recommendation System Example
