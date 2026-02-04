@@ -152,7 +152,38 @@ Pop_score = (M3_bookings - Min_bookings) / (Max_bookings - Min_bookings)
           = 0.0
 </pre>
 
-**Popularity Score = 0.0** (M3 is the least popular movie)
+#### Popularity Score = 0.0** ✅ (M3 is least popular)
+
+### Final Step: Combine All Three (Hybrid Score)
+
+#### Decide on Weights
+
+Let's use **business-driven weights** for BookMyShow:
+
+w_CB = 0.30  (30% - content features) <br>
+w_CF = 0.50  (50% - user behavior is most important) <br>
+w_Pop = 0.20 (20% - trending factor) <br>
+
+Total = 100% <br>
+
+#### Calculate Final Hybrid Score
+
+Hybrid_score = w_CB × CB_score + w_CF × CF_score + w_Pop × Pop_score
+
+<pre>
+Hybrid_score = 0.30 × 0.28 + 0.50 × 0.60 + 0.20 × 0.0
+             = 0.084 + 0.300 + 0.0
+             = 0.384
+</pre>
+
+#### Convert back to 5-star scale (optional):
+Final_Rating = 0.384 × 5 = 1.92 stars
+
+
+
+
+
+
 
 
 
