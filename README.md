@@ -180,13 +180,13 @@ Hybrid_score = 0.30 × 0.28 + 0.50 × 0.60 + 0.20 × 0.0
 Final_Rating = 0.384 × 5 = 1.92 stars
 
 
-U1's predicted rating for M3:
+U1's predicted rating for M3: <br>
 
-Content:    ██░░░░░░░░  28%  "Not your genre"
-Collab:     ██████░░░░  60%  "Similar user was meh"
-Popular:    ░░░░░░░░░░   0%  "Nobody's watching"
-            ─────────────
-FINAL:      ████░░░░░░  38%  "Skip this one!"
+Content:    ██░░░░░░░░  28%  "Not your genre" <br>
+Collab:     ██████░░░░  60%  "Similar user was meh" <br>
+Popular:    ░░░░░░░░░░   0%  "Nobody's watching" <br>
+            ───────────── <br>
+FINAL:      ████░░░░░░  38%  "Skip this one!" <br>
 
 
 
