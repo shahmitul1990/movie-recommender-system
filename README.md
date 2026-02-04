@@ -196,6 +196,18 @@ Final_Rating = 0.384 × 5 = 1.92 stars
 | Popularity | "M3 is least popular" ❌ | 0.00 | 20% | 0.000 |
 | FINAL HYBRID | "Probably won't like much" | 0.384 | 100% | 0.384 |
 
+#### Recommendation Decision
+#### Final Score: 0.384 (or ~1.9 stars out of 5)
+
+#### What does this mean?
+#### 🔴 DON'T strongly recommend M3 to U1
+#### Why?
+
+* ❌ Content: U1 likes Action, M3 is Drama (only same actor)
+* ⚠️ Collaborative: Similar person (U2) gave it just 3/5
+* ❌ Popularity: Nobody's booking it much
+
+
 
 
 
