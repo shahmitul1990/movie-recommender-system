@@ -160,7 +160,7 @@ Pop_score = (M3_bookings - Min_bookings) / (Max_bookings - Min_bookings)
           = 0.0
 </pre>
 
-#### Popularity Score = 0.0** ✅ (M3 is least popular)
+#### Popularity Score = 0.0 ✅ (M3 is least popular)
 
 ### Final Step: Combine All Three (Hybrid Score)
 
